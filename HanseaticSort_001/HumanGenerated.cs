@@ -10,7 +10,6 @@ namespace HanseaticSort_001
     public class HumanGenerated
     {
         public static bool isHumanGenerated = false;
-
         public static Regex regex = new Regex(@"^\d+$"); /*"^\d$"*/ // for a one number
         public static int size;
         public static string sizeBevor;

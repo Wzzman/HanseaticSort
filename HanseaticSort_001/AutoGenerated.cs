@@ -25,7 +25,7 @@ namespace HanseaticSort_001
             }
             Array.Sort(x);
 
-            // now i will proof my doubles in the array and change it
+            // now i will reduce my doubles in the array
             for (int i = 0; i < size; i++)
             {                                                                   ////
                 if (i > 0 && x[i - 1] == x[i])
@@ -34,8 +34,6 @@ namespace HanseaticSort_001
                 }
             }
             Array.Sort(x);
-
-            //MyFunctions.PrintMyArray(x);
             return x;
         }
         public int GenerateDigit()
